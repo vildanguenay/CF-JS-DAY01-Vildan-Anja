@@ -7,7 +7,35 @@
 	<script type="text/javascript">
 		car=["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"];
 		document.write(car.sort());
+		document.write("<hr>");
 	</script>
+
+	<h3>Intermediate Exercise 2</h3>
+	<p>Create a program using different methods, which will provide the following outputs:<br>
+		Start = apple, banana, kiwi,<br>
+		Output = apple, banana, kiwi, orange<br>
+		Output = apple, banana, kiwi</p>
+
+	<h3>push() and pop()</h3>
+	<script>
+		var fruits = ["apple", "banana", "kiwi"];
+		fruits.push("orange"); // add the value at the end of an array
+		document.write(fruits);
+		document.write("<hr>");
+		document.write(fruits.pop()); // remove the last element of an array
+		document.write("<hr>");
+		document.write(fruits);
+		document.write("<hr>");
+	</script>
+
+	<h3>sort() and unshift()</h3>
+		<script>
+			var animals = ["monkey", "horse", "dog"];
+			document.write(animals.sort()); // alphabetical order
+			document.write("<hr>");
+			animals.unshift("cat"); // add the value to the beginning of an array
+			document.write(animals);
+		</script>
 
 </body>
 </html>
