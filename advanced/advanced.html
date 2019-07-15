@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h3>Advanced Exercise 1</h3>
+	<p>Sum the following variables and store the result in one new variable:<br>
+		var a = 7;<br>
+		var b = 14;<br>
+		var c = "21";<br>
+		var d = '36';<br>
+		var e = 42;<br>
+
+		Multiply the following variables and store the result in one new variable: <br>
+		var f = '1'; <br>
+		var g = 15; <br>
+		var h = 8; <br>
+		var i = "1"; <br>
+
+		Divide the two results that you got from the arithmetic operations and print the result in the web browser.
+	</p>
+
+	<script>
+		var a = 7;
+		var b = 14;
+		var c = "21";
+		var d = '36';
+		var e = 42;
+
+		var total = a + b + Number(c) + Number(d) + e;
+		document.write("Sum: " + total);
+		document.write("<br>");
+
+		var f = '1';
+		var g = 15;
+		var h = 8;
+		var i = "1";
+
+		var multiplication = Number(f) * g * h * Number(i);
+		document.write("Multiply:" + multiplication);
+		document.write("<br>")
+
+		var division = total / multiplication;
+		document.write("Division: " + division);
+
+
+	</script>
+
+	<p><b>Number()</b> converts strings to numbers.</p>
+
+
+</body>
+</html>
